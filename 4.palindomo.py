@@ -2,7 +2,7 @@ def run(Palabra):
     palabra = palabra.replace(' ', '')
     palabra = palabra.lower()
     es_palabra = palabra[::-1]
-    if plabra == palabra_invertida:
+    if palabra == palabra_invertida:
         return True
     else:
              return False

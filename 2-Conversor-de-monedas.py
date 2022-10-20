@@ -4,7 +4,7 @@ from tkinter import Menu
 Menu = """
 Bienvenido al combersor de monedas 
 
-1 - Pesos Mrxicanos
+1 - Pesos Mexicanos
 2 - pesos Argentinos
 3 - pesos Chilenos
 
