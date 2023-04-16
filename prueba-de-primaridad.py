@@ -1,4 +1,8 @@
 
+from socket import gaierror
+from urllib.request import DataHandler
+
+
 def es_primo(numero):
     contador = 0
     for i in range(1, numero + 1):
@@ -20,7 +24,6 @@ def run():
         print("Es primo")
     else:
         print('no es primo')
-    
 
 
 
