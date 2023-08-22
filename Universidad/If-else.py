@@ -1,4 +1,3 @@
-
 edad = int(input("Introduce tu edad: "))
 name = str(input("Introduce tu nombre: "))
 

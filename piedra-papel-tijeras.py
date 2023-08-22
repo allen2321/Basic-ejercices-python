@@ -1,20 +1,21 @@
 import random
 
-def play():
+def run():
   user = input("elije 't' tijeras 'p' papel 'r' piedra: ")
   computadora = random.choice(['r', 'p', 't'])
 
   if user == computadora:
     print('empate')
 
-  if is_win(user, computadora):
-    return 'You won'
-  else:
-    return 'you lost'
 
 def is_win(player, opponent):
     if player == 'r' and opponent == 't' or player == 'p' and opponent == 'r' or player == 't' and opponent == 'p':
-        return True
+        print('player wins')
+    else:
+        print('opponent wins')
 
-print(play())
+    
+
+if __name__ == '__main__':
+    run()
     
