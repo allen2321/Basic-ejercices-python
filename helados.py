@@ -8,6 +8,11 @@ def run():
     print("Solo les alcanza para el helado de limon")
    elif dinero > 15:
     print('alcanza para el helado de vainilla')
+   elif dinero > 20 | dinero > 30:
+       print("Te alcanza para el de chocolate")
+   elif dinero > 30:
+    print("Te alcanza la de menta chocolatada")
+    
 
 
 
