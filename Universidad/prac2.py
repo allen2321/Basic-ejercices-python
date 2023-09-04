@@ -11,7 +11,7 @@ while respuesta.upper() == "SI":
            num = int(input("Escribe un numero: "))
            break
         except ValueError:
-            print("Solo datos numericos por favot")
+            print("Solo datos numericos por favor")
     i = 1
     fact = 1
     while i <= num:

@@ -29,3 +29,4 @@ print(list(zip(names,age)))
 new_dic = {names: age for (names,age) in zip(names, age) }
 
 print(new_dic)
+
